@@ -70,7 +70,14 @@ const rod = document.getElementById('rod')
 function DELETE() {
     rod.remove()
     document.body.style.backgroundColor = 'black';
-    
-
-
+    let newDiv = document.createElement('div')
+    let newTextDiv = document.createTextNode(':-( error')
+    newDiv.appendChild(newTextDiv)
+    document.body.append(newDiv)
+    newDiv.style.color = 'red'
+    newDiv.style.fontSize = '350px'
+    newDiv.style.textAlign = 'center'
+    newDiv.addEventListener('click', () => {
+        alert('сайт уничтожен')
+    })
 }
