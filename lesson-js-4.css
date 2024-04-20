@@ -1,0 +1,37 @@
+#addTeg{
+    width: 700px;
+    text-align: center;
+    padding: 15px;
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(68, 175, 175);
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.buttons-1{
+    width: 740px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+#endElement, #beginningElement, #deleteFirst, #deleteLast{
+    width: 280px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+.buttonOne{
+    width: 260px;
+    margin: auto;
+}
+#delete{
+    width: 280px;
+    height: 40px;
+    cursor: pointer;
+}
